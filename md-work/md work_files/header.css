@@ -1,0 +1,45 @@
+.navbar{
+
+    background: rgba(0,0,0,0.5);
+}
+.navbar-brand{
+
+    width: 8.5rem;
+    top: 0.3rem;
+    height: 2.5rem;
+    background-size: contain;
+    background-image: url(ahywhitelogo.png);
+    background-repeat: no-repeat;
+}
+.navbar-toggle{
+    background: transparent;
+    border: none;
+    top: 0.2rem;        
+    padding: 0rem;
+}
+.icon-bar{
+    background-color: #fff;
+    margin: 0.5rem 0rem;
+    width: 2rem;
+    height: 1px;
+    display: block;
+}
+
+@media (min-width: 768px){
+
+    .navbar-brand{
+        width: 10rem;
+        top: 0.3rem;
+        height: 3rem;
+    }
+}
+@media (min-width: 992px){
+    .navbar-toggle{
+        display: none;
+    }
+    .navbar-brand{        
+        width: 11rem;
+        top: 0.3rem;
+        height: 3rem;
+    }
+}
