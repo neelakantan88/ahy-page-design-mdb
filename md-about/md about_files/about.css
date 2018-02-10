@@ -1,0 +1,171 @@
+/*COMMON STYLINGS BODY, NAVBAR*/
+body{
+    font-family: 'Raleway';
+}
+
+.navbar{
+    background: rgba(0,0,0,0.5) !important;
+}
+
+/*HERO SECTION STARTS*/
+.about-hero-section{
+
+    background-image: url('./md about_files/hero-image.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50%
+}
+
+.about-hero-section h1{
+
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgba(255,255,255,0.5);
+}
+
+/*MAIN CONTENT CONTAINER STARTS*/
+.about-content-container{
+
+    padding: 0rem 1.5rem;
+    text-align: center;
+}
+
+.about-content-heading{
+    padding: 0% 10%;
+    letter-spacing: 0.1rem;
+    line-height: 1.2rem;
+    margin-top: 2.5rem !important;
+}
+
+.about-content-container h5{
+    font-size: 1.6rem;
+    font-weight: bold;            
+}
+
+.about-content-description p{
+    line-height: 1.2;
+}
+
+/*each service card common styling*/
+.about-card{
+    border-radius: 0rem;       
+    margin-bottom: 1rem;
+}
+.card:not([class*=card-outline-]){
+    box-shadow: none;
+}
+.about-card img{
+
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+}
+
+/*each service card content styling*/
+.about-card-content{
+    padding: 0.25rem;
+}
+.about-card-content p{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.about-client-description{
+    padding: 2% 0%;    
+}
+.about-client-description p{
+    margin-bottom: 0rem;    
+}
+
+.mdb-lightbox [class*="col-"] {
+    padding: 0.1rem;
+}
+.mdb-lightbox figure {
+    margin: 0;
+    float: left;
+}
+
+
+/*MEDIA QUERIES BETWEEN 425PX AND 768PX*/
+@media (min-width:425px) and (max-width:768px){
+
+    .about-hero-section{
+
+        height: 40%;
+    }
+
+    .about-hero-section h1{
+        font-size:3.7rem;
+    }    
+
+    .about-content-heading{
+        padding: 0% 20%;
+        letter-spacing: 0.1rem;
+    }
+
+    .about-content-container h5{
+
+        font-size: 1rem;
+
+    }
+    .about-card-content p{
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+
+}
+
+/*MEDIA QUERIES BELOW 425PX*/
+@media (max-width:425px){
+
+  .about-hero-section{
+
+        height: 40%;
+    }
+
+  .about-hero-section h1{
+        font-size: 2rem;
+    }    
+
+  .about-content-description{    
+        font-size: 0.6rem;
+        text-align: justify;
+    }
+
+  .about-content-tabs a{
+
+        font-size: 0.6rem;
+    }
+
+  .about-content-container h5{
+
+        font-size: 1rem;
+    }
+
+  .about-card-content p{
+        font-size: 0.75rem;
+        font-weight: bold;
+    }
+
+  .about-card-content .card-title{
+        font-size: 0.55rem;
+        letter-spacing: 0.05rem;
+        font-weight: bold;
+    }
+
+  .about-card-content .card-text{
+        font-size: 0.55rem;
+        letter-spacing: 0.05rem;
+    }
+
+  .about-card-content .card-text, .card-title{
+
+        margin-bottom: 0rem !important;
+    }                
+
+  .about-client-description p{
+        font-size: 0.55rem;                  
+    }    
+
+}
